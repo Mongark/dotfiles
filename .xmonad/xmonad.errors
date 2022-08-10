@@ -1,0 +1,8 @@
+
+xmonad.hs:208:17: warning: [-Wdeprecations]
+    In the use of ‘spacingWithEdge’
+    (imported from XMonad.Layout.Spacing):
+    Deprecated: "Use spacingRaw instead."
+    |
+208 |      glyt     = spacingWithEdge 5 $ tiled
+    |                 ^^^^^^^^^^^^^^^
