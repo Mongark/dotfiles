@@ -4,7 +4,7 @@ rm .bashrc
 rm .xmobarrc
 rm xmonad.hs
 rm xmonad_config_README.md
-rm -r ~/.xmonad/deskspaces
+rm -r deskspaces
 
 cp ~/.vimrc .
 cp ~/.vimrc.plug .
