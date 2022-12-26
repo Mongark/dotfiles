@@ -10,4 +10,6 @@ cp ~/.bashrc .
 cp ~/.xmobarrc .
 cp ~/.xmonad/xmonad.hs .
 
-
+git add .
+git commit -m "Updated dotfiles"
+git push
