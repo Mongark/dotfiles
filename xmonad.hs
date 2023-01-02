@@ -62,6 +62,12 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     -- launch firefox
     , ((modm .|. shiftMask, xK_f), spawn "brave-browser")
 
+    -- launch nautilus
+    , ((modm .|. shiftMask, xK_n), spawn "nautilus")
+
+    -- launch trilium
+    , ((modm .|. shiftMask, xK_t), spawn "trilium")
+
     -- increase screen brightness
     , ((modm, xK_v), spawn "lux -a 10%")
 

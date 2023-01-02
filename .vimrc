@@ -52,6 +52,9 @@ map <C-x> :bn<CR>
 map <C-c> :bd<CR>
 map <F5> :setlocal spell! spelllang=en_gb<CR>
 
+" File management
+map <C-s> :w<CR>
+
 let loaded_matchparen = 1
 let mapleader = " "
 
