@@ -37,6 +37,9 @@ call plug#begin('~/.vim/plugged')
     " Tabs
     Plug 'ap/vim-buftabline'
 
+    " Markdown
+    Plug 'preservim/vim-markdown'
+
 call plug#end()
 
 set background=dark

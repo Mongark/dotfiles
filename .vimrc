@@ -28,6 +28,9 @@ set modifiable
 let mapleader=","
 let g:NERDSpaceDelims = 1
 
+" Disable folding for Markdown
+let g:vim_markdown_folding_disabled = 1
+
 " Give more space for displaying messages.
 set cmdheight=2
 
