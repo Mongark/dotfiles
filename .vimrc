@@ -52,6 +52,11 @@ map <C-x> :bn<CR>
 map <C-c> :bd<CR>
 map <F5> :setlocal spell! spelllang=en_gb<CR>
 
+" Rust Analyzer
+map <C-up> :CocCommand rust-analyzer.moveItemUp<CR>
+map <C-down> :CocCommand rust-analyzer.moveItemDown<CR>
+map <C-=>r :CocCommand rust-analyzer.ssr<CR>
+
 " File management
 map <C-s> :w<CR>
 

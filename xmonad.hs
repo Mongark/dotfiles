@@ -68,6 +68,12 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     -- launch trilium
     , ((modm .|. shiftMask, xK_t), spawn "trilium")
 
+    -- change keyboard layout to US
+    , ((modm .|. shiftMask, xK_u), spawn "setxkbmap us")
+
+    -- change keyboard layout to BR
+    , ((modm .|. shiftMask, xK_b), spawn "setxkbmap br")
+
     -- increase screen brightness
     , ((modm, xK_v), spawn "lux -a 10%")
 
