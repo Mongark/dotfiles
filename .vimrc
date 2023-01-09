@@ -25,6 +25,7 @@ set termguicolors
 set scrolloff=8
 set modifiable
 
+" Check the consequence of deleting this:
 let mapleader=","
 let g:NERDSpaceDelims = 1
 
