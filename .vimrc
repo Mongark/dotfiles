@@ -1,11 +1,11 @@
 syntax on
 
-set guifont=Hack\ Regular\ Font:h12
+" set guifont=Hack\ Regular\ Font:h12
 set encoding=UTF-8
 
 set guicursor=
 set noshowmatch
-set relativenumber
+" set relativenumber
 set nohlsearch
 set hidden
 set noerrorbells
@@ -73,6 +73,7 @@ nmap <leader>gd <Plug>(coc-definition)
 nmap <leader>gy <Plug>(coc-type-definition)
 nmap <leader>gi <Plug>(coc-implementation)
 nmap <leader>gr <Plug>(coc-references)
+nmap <leader>ga :CocCommand tsserver.executeAutofix
 nmap <leader>rr <Plug>(coc-rename)
 nmap <leader>g[ <Plug>(coc-diagnostic-prev)
 nmap <leader>g] <Plug>(coc-diagnostic-next)
